@@ -1,0 +1,37 @@
+Superstore Marketing Campaign Analysis
+Introduction:
+This project aims to analyze the Superstore Marketing Campaign dataset to develop a predictive model for identifying customers likely to respond positively to the "gold membership" offer. By leveraging machine learning techniques and exploratory data analysis, we aim to provide insights and recommendations to optimize the campaign's effectiveness.
+
+Problem Statement:
+The management of the superstore seeks to reduce campaign costs by targeting customers with a high likelihood of a positive response to the gold membership offer. Key factors such as demographic characteristics, purchase history, and customer behavior will be analyzed to develop a predictive model.
+
+Dataset:-
+Source: The Superstore Marketing Campaign Dataset available on Kaggle.
+Attributes: The dataset includes 22 attributes such as customer demographics, spending behavior, and response to previous campaigns.\
+
+Data Preprocessing:-
+Missing Values: 
+Missing values in the income column were dropped to ensure data integrity.
+
+Transformations:
+Birth year was transformed into age, and the date of customer enrollment was converted into enrolled days for easier analysis.
+Outliers: Outliers in the income and age columns were identified and removed using boxplots to prevent skewing of analysis.
+
+Dataset Exploration:
+Explored the relationship between customer spending behavior and response to the offer.
+Analyzed customer purchasing behavior across different channels (store, web, catalog).
+Examined the impact of income on response rates.
+
+Analysis and Results:
+Implemented Classification Trees, Logit Regression, and Clustering models for predictive analysis.
+Identified Boosted Trees as the optimal model with an overall accuracy of 86.20%.
+Analyzed feature importance to understand the factors influencing customer response.
+Segmented customers into clusters based on income, purchasing behavior, and demographic characteristics.
+
+Conclusion and Recommendations:
+Recommended targeting customer segments with high income and specific purchasing behaviors for future campaigns.
+Provided insights into factors influencing customer response and strategies to improve campaign effectiveness.
+
+Lessons Learned:
+Gained expertise in data mining and connecting analytical results with business outcomes.
+Enhanced teamwork skills by leveraging individual strengths for project success.
